@@ -21,9 +21,9 @@ IT인의 축제 인프콘에서 방명록을 남기고 서로 네트워킹해보
 name: 이름
 
 # 깃허브 아이디를 입력하시면 프로필 이미지가 보입니다.
-# https://avatar.tobi.sh/tobiaslins.svg?text={{이니셜}} 
+# https://avatar.tobi.sh/tobiaslins.svg?text=이니셜
 # 깃허브 프로필 이미지 대신 위 주소로 이니셜이 적힌 이미지도 사용가능합니다
-image: https://github.com/{{id}}.png 
+image: https://github.com/본인 id.png 
 
 emoji: 🥳
 
@@ -31,15 +31,15 @@ message: 인사말
 
 # 없으면 해당 라인 삭제하셔도 됩니다.
 # facebook 계정아이디는 본인 프로필 페이지 URL에서 확인하실수 있습니다. 
-# e. g. facebook.com/profile.php?id={{id}} 혹은 facebook.com/{{id}}
+# e. g. facebook.com/profile.php?id=본인 id 혹은 facebook.com/본인 id
 facebook: 계정 아이디
 
 # 없으면 해당 라인 삭제하셔도 됩니다.
-# twitter 계정아이디는 본인 프로필 페이지 URL에서 확인하실수 있습니다. e. g. twitter.com/{{id}}
+# twitter 계정아이디는 본인 프로필 페이지 URL에서 확인하실수 있습니다. e. g. twitter.com/본인 id
 twitter: 계정 아이디
 
 # 없으면 해당 라인 삭제하셔도 됩니다. 
-# github 계정아이디는 본인 프로필 페이지 URL에서 확인하실수 있습니다. e. g. github.com/{{id}}
+# github 계정아이디는 본인 프로필 페이지 URL에서 확인하실수 있습니다. e. g. github.com/본인 id
 github: 계정 아이디 
 ---
 ```
@@ -47,7 +47,7 @@ github: 계정 아이디
 ### ⚠️ 양식 작성시 유의사항
 - image 필드는 프로필 이미지 url이 없을 경우 https://avatar.tobi.sh/tobiaslins.svg?text=INF 좌측 parameter에 본인의 이니셜로 변경해주세요.
   - 프로필 이미지 url이 **없는(X)** 경우 예시)`https://avatar.tobi.sh/tobiaslins.svg?text=DY`
-  - 프로필 이미지 url이 **있는(O)** 경우 예시)`https://github.com/{{id}}.png`
+  - 프로필 이미지 url이 **있는(O)** 경우 예시)`https://github.com/본인 id.png`
   - 그 외 사용하고 싶은 이미지가 있는 경우 자유롭게 입력해주세요.
 - emoji 필드는 여기에서 찾아 복사 붙여넣기 해주세요 (키보드의 기본 이모지를 사용하셔도 됩니다.) 👉 [emojipedia.org](https://emojipedia.org/)
 - SNS 계정은 아이디(@이하 메일 제외)만 적어주시면 됩니다. 예시) cdy0510
