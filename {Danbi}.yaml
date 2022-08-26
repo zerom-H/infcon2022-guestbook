@@ -1,9 +1,7 @@
 ---
 name: Danbi
-image: https://avatar.tobi.sh/tobiaslins.svg?text={{이니셜}}
-emoji: {{이모티콘}}
+image: https://avatar.tobi.sh/tobiaslins.svg?text=�DB
 message: 인사말
-facebook: {{페이스북 아이디}}
-twitter: {{트위터 아이디}}
+
 github: itssweetrain@github.com
 ---
